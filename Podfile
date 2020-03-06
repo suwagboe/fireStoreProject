@@ -6,6 +6,7 @@ target 'firebaseProject' do
   use_frameworks!
 
   # Pods for firebaseProject
+	pod 'Firebase/Analytics'
 
   target 'firebaseProjectTests' do
     inherit! :search_paths
